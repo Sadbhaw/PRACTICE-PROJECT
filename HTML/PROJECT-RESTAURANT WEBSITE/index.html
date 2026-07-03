@@ -4,6 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domino"s Pizza</title>
+
+    <style>
+        body{
+            
+            font-family: sans-serif;
+            
+        }
+        #hero{
+            background-image: url("dominos-pizza-car-illuminated-sign.webp");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 800px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #subHero{
+            height: 600px;
+            width: 500px;
+            margin: 40px;
+            margin-left: auto;
+            padding: 40px;
+            align-content: center;
+            text-align: center;
+            
+        }
+        button{
+            background-color: #dc062b;
+            border-style: outset;
+            border-width: 2px;
+            border-color: darkgray;
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 25px;
+        }
+        .Explore{
+            align-content: center;
+            text-align: center;
+            border: solid 1px black;
+            border-radius: 5px;
+            padding: 20px;
+            padding-top: 0px;
+            margin: 20px;
+            width: 200px;
+            height: 200px;
+        }
+        .Menu{
+            background-color: #e85c74;
+            width: 350px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
     <header style="display: flex; justify-content: space-between; padding: 10px;">
@@ -20,14 +78,11 @@
 
     <hr>
 
-    <main style="background-color: #2596be;">
-        <div style="display: flex; align-items: center; justify-content: center;">
-            <div>
-                <img src="dominos-pizza-car-illuminated-sign.webp" alt="Domino's" width="900px">
-            </div>
-            <div style="margin: 20px;padding: 20px;">
-                <p style="font-size: 50px;">Yummy pizza delivered fast and fresh</p>
-                <button style="margin: 50px;font-size: 25px;padding: 10px;border-radius: 5px;background-color: #e02847;">Order Online Now</button>
+    <main>
+        <div id="hero">
+            <div id="subHero">
+                <p style="font-size: 50px;">Yummy pizza delivered fast and fresh.</p>
+                <button>Order Online Now</button>
             </div>
         </div>
 
@@ -54,7 +109,7 @@
         <div style="text-align: center;margin: 40px;">
             <h3 style="font-size: 35px;margin: 40px;">DOMINO'S MENU</h3>
             <div style="display: flex;align-items: center;justify-content: space-evenly;font-size: 22px;">
-                <div style="background-color: #e85c74; width: 350px;">
+                <div class="Menu" >
                     <h3>VEG PIZZAS</h3>
                     <ul>
                         <li>MARGHERITA</li>
@@ -64,7 +119,7 @@
                         <li>CHEESE N CORN</li>
                     </ul>
                 </div>
-                <div style="background-color: #e85c74;width: 350px;">
+                <div class="Menu" >
                     <h3>NON-VEG PIZZAS</h3>
                     <ul>
                         <li>CHICKEN DOMINATOR</li>
@@ -74,7 +129,7 @@
                         <li>PEPPER BARBECUE CHICKEN</li>
                     </ul>
                 </div>
-                <div style="background-color: #e85c74;width: 350px;">
+                <div class="Menu" >
                     <h3>SIDES AND BEVERAGGES</h3>
                     <ul>
                         <li>GARLIC BREADSTICKS</li>
@@ -91,29 +146,33 @@
 
         <div style="text-align: center;">
             <h3 style="font-size: 35px;margin: 40px;">Explore</h3>
-            <div style="display: flex; align-items: center; justify-content: space-evenly; margin: 30px;margin-bottom: 0px;padding: 30px;">
+            <div style="display: flex; align-items: center; justify-content: space-evenly; margin: 10px;margin-bottom: 0px;padding: 20px;">
                 
-                <div style="height: 250px; width: 250px;border: solid 1px black;border-radius: 5px">
+                <div class="Explore" >
                     <h4>OUR MENU</h4>
                     <p>Explore our range of delicious Pizzas, delivered in 30 minutes!</p>
+                    <a href="#">MENU</a>
                 </div>
-                <div style="height: 250px; width: 250px;border: solid 1px black;border-radius: 5px;">
+                <div class="Explore" >
                     <h4>NEARBY STORE</h4>
                     <p>Find a Domino's Pizza restaurant near you </p>
+                    <a href="#">STORE</a>
                 </div>
-                <div style="height: 250px; width: 250px;border: solid 1px black;border-radius: 5px">
+                <div class="Explore" >
                     <h4>BIRTHDAY PARTY</h4>
-                    <P>Cekebrate the joy of birthday with Fresh and Hot Pizzas</P>
+                    <P>Celebrate the joy of birthday with Fresh and Hot Pizzas</P>
+                    <a href="#">BOOK</a>
                 </div>
-                <div style="height: 250px; width: 250px;border: solid 1px black;border-radius: 5px">
+                <div class="Explore" >
                     <h4>CATERING</h4>
                     <P>Live Domino's Kitchen for weddings/ corporate events</P>
+                    <a href="#">QUERY</a>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer style="display: flex; align-items: center;justify-content: center;background-color: #2387ac;">
+    <footer style="display: flex; align-items: center;justify-content: center;background-color: #3d91af;">
         <div>
             <p>Copyright © 2026 Domino's Pizza. All Rights Reserved.</p>
         </div>
