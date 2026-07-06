@@ -3,6 +3,9 @@
     font-family: 'Times New Roman', Times, serif ;
     border: border-box;
 }
+body{
+    background-color: #EFF6E0;
+}
 /**
 Color Palettes!
 Primary: #EFF6E0
@@ -58,4 +61,45 @@ Accent: #598392
 }
 .nav-links a:hover{
     color: #598392;
+}
+
+.hero{
+    height: 600px;
+    margin: 20px;
+    border: 5px soild #598392;
+    border-style: outset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-event-name{
+    color: #598392;
+    font-size: 80px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.hero-tagline{
+    color: #598392;
+    font-size: 40px;
+    margin: 10px;
+}
+.hero-description{
+    color: #598392;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}.hero-cto{
+    width: 700px;
+    color: #598392;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-date-venue{
+    height: 110;
+}
+.hero-register button{
+    border-radius: 5px;
+    font-size: 20px;
 }
