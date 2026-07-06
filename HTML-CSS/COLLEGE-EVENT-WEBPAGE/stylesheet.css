@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif ;
+    border: border-box;
+}
+body{
+    background-color: #EFF6E0;
+}
+/**
+Color Palettes!
+Primary: #EFF6E0
+Secondary: #124550
+Accent: #598392
+**/
+.navbar{
+    height: 80px;
+    background-color: #124559 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 50px;
+    width: 140px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #598392;
+}
+#logo-img{
+    height: 50px;
+    border-radius: 50%;
+}
+.nav-event{
+    height: 50px;
+    width: 270px;
+    font-size: 36px;
+    color: #EFF6E0;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-links a{
+    color: #EFF6E0;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+}
+.nav-links a:hover{
+    color: #598392;
+}
+
+.hero{
+    height: 600px;
+    margin: 20px;
+    border: 5px soild #598392;
+    border-style: outset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-event-name{
+    color: #598392;
+    font-size: 80px;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+.hero-tagline{
+    color: #598392;
+    font-size: 40px;
+    margin: 10px;
+}
+.hero-description{
+    color: #598392;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}.hero-cto{
+    width: 700px;
+    color: #598392;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-date-venue{
+    height: 110;
+    font-size: 20px;
+}
+.hero-register button{
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.about{
+    margin: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #598392;
+}
+.about-intro h2{
+    font-size: 50px;
+    margin: 10px;
+    color: #2e7794;
+}
+.about-intro p{
+    font-size: 25px;
+}
+.event-highlights{
+    font-size: 25px;
+    margin: 20px;
+}
+.organizer-info{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.schedule-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;;
+    margin: 50px;
+}
+.schedule-table h2{
+    font-size: 50px;
+    color: #2e7794;
+    margin: 10px;
+}
+.schedule-table table{
+    font-size: 25px;
+    color: #598392;
+    text-align: center;
+    width: 900px;
+    background-color: #124559;
+    margin: 20px;
+}
+.ST-header{
+    width: 300px;
+    background-color: #2e7794;
+    color: #EFF6E0;
+}
+.ST-data{
+    background-color: #EFF6E0;
+}
+
+.speaker-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.speaker-body h2{
+    font-size: 50px;
+    color: #2e7794;
+    margin: 20px;
+}
+.speakers{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+.speaker-info{
+    width: 300px;
+    height: 500px;
+    font-size: 25px;
+    text-align: center;
+    color: #2e7794;
+    margin: 15px;
+}
+.registration{
+    text-align: center;
+    margin: 40px;
+}
+.registration h2{
+    font-size: 50px;
+    color: #2e7794;
+    margin: 20px;
+}
+.register-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #598392;
+}
+.form-el input{
+    font-size: 20px;
+}
+.form-el-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.form-button{
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
+}
+.location h2{
+    font-size: 50px;
+    color: #2e7794;
+    margin: 20px;
+}
+.iframe{
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.contact-info h2{
+    font-size: 50px;
+    color: #2e7794;
+    margin: 20px;
+}
+.contact-el{
+    font-size: 25px;
+    width: 500px;
+    color: #598392;
+    text-align: center;
+}
+.contact-el a{
+    text-decoration: none;
+    color: #598392;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #124559;
+    color: #598392;
+    font-size: 20px;
+}
